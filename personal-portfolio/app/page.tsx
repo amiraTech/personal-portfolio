@@ -15,6 +15,8 @@ export default function Home() {
 
         <h1>Amira Portfolio, coming soon!</h1>
 
+        
+
 
 
 
