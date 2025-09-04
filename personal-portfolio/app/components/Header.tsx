@@ -15,7 +15,7 @@ export default function Header() {
           <a href="/#projects" className="text-sm font-medium hover:text-brand-pink transition-colors">Projects</a>
           <a href="/#experiences" className="text-sm font-medium hover:text-brand-pink transition-colors">Experiences</a>
           <a href="/#services" className="text-sm font-medium hover:text-brand-pink transition-colors">Services</a>
-          <a href="/#contacts" className="text-sm font-medium hover:text-brand-pink transition-colors">Contact</a>
+          <a href="/contacts" className="text-sm font-medium hover:text-brand-pink transition-colors">Contact</a>
         </nav>
         <ThemeToggle />
       </div>

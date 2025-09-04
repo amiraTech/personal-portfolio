@@ -15,9 +15,22 @@ const projects = [
 
 export default function Home() {
   return (
-    <main className="bg-[#1E1E1E] text-white">
+    <main>
       {/* ===== WELCOME SECTION ===== */}
-      <section id="about" className="min-h-screen flex items-center px-10">
+      <section id="about" className="min-h-screen flex flex-col-reverse md:flex-row-reverse items-center justify-center px-10 gap-10">
+          {/* Profile Image Section */}
+         <div className="relative w-64 h-64 rounded-full overflow-hidden flex items-center justify-center border-4 border-white dark:border-gray-800 hover:border-brand-red transition-colors duration-300">
+         <Image
+             src="/amira-profile.png"
+             alt="Amira A"
+             layout="fill"
+             objectFit="cover"
+             className="rounded-full object-center"
+           />
+        </div>
+     
+
+
         <div className="max-w-2xl">
           <h1 className="text-5xl font-bold leading-tight">Hi! I'm Amira</h1>
           <h3 className="text-3xl font-bold text-brand-red mt-2">Front End Developer</h3>
@@ -34,6 +47,28 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+
+    
+
+        {/* ===== PROJECTS SECTION ===== */}
+      <section id="projects" className="py-20 px-10 bg-[#282828] text-center">
+        <h2 className="text-4xl font-bold mb-10">These are my projects!</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          {projects.map((project) => (
+            <a
+              key={project.title}
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-[#3c3c3c] p-5 rounded-xl hover:scale-105 hover:bg-[#474747] transition-all"
+            >
+              <p className="mt-4 text-xl font-medium text-white">{project.title}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
       
       {/* ===== EXPERIENCES SECTION ===== */}
       <section id="experiences" className="py-20 px-10 bg-[#1E1E1E] text-center">
@@ -90,23 +125,6 @@ export default function Home() {
                 </div>
             </section>
 
-      {/* ===== PROJECTS SECTION ===== */}
-      <section id="projects" className="py-20 px-10 bg-[#282828] text-center">
-        <h2 className="text-4xl font-bold mb-10">These are my projects!</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {projects.map((project) => (
-            <a
-              key={project.title}
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block bg-[#3c3c3c] p-5 rounded-xl hover:scale-105 hover:bg-[#474747] transition-all"
-            >
-              <p className="mt-4 text-xl font-medium text-white">{project.title}</p>
-            </a>
-          ))}
-        </div>
-      </section>
       
       {/* ===== FOOTER/CONTACTS SECTION ===== */}
       <footer id="contacts" className="py-10 px-10 bg-[#282828] text-center">
