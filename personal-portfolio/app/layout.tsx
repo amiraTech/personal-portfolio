@@ -1,8 +1,9 @@
 // app/layout.tsx
-import type { Metadata } from "next";
+//import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "./components/Header"; // Import the Header
+import { Providers } from "./providers"; // We need this for the theme
+import Header from "./components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
       <body className={inter.className}>
-       
+        <Providers>
+          <Header />
+          {children} {/* This line renders your actual page content */}
+        </Providers>
       </body>
     </html>
   );

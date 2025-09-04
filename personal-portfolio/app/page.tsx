@@ -9,6 +9,7 @@ const projects = [
     imageUrl: 'https://i.ibb.co/VWgjJBc/project.png',
     link: 'https://codepen.io/amiraTech/full/vYqBVPm',
   },
+
   // Add your other projects here
 ];
 
@@ -46,13 +47,6 @@ export default function Home() {
               rel="noopener noreferrer"
               className="block bg-[#3c3c3c] p-5 rounded-xl hover:scale-105 hover:bg-[#474747] transition-all"
             >
-              <Image
-                src={project.imageUrl}
-                alt={project.title}
-                width={320}
-                height={200}
-                className="w-full h-48 object-cover rounded-lg"
-              />
               <p className="mt-4 text-xl font-medium text-white">{project.title}</p>
             </a>
           ))}
