@@ -25,10 +25,10 @@ export default function Home() {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium facilis consequatur perspiciatis, placeat distinctio est voluptatibus.
           </p>
           <div className="flex gap-4 mt-8">
-            <a href="#" className="inline-block bg-brand-red text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
+            <a href="#" className="inline-block bg-red-600 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
               Hire me!
             </a>
-            <a href="#" className="inline-block bg-brand-red text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
+            <a href="#" className="inline-block bg-red-600 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
               Contact Me
             </a>
           </div>
