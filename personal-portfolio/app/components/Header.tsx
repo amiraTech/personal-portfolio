@@ -10,11 +10,12 @@ export default function Header() {
       </Link>
       <div className="flex items-center gap-4 sm:gap-8">
         <nav className="hidden sm:flex items-center gap-6">
-          <Link href="/about" className="text-sm font-medium hover:text-brand-pink transition-colors">About</Link>
-          <Link href="/projects" className="text-sm font-medium hover:text-brand-pink transition-colors">Projects</Link>
-          <Link href="/experiences" className="text-sm font-medium hover:text-brand-pink transition-colors">Experiences</Link>
-          <Link href="/services" className="text-sm font-medium hover:text-brand-pink transition-colors">Services</Link>
-          <Link href="/contact" className="text-sm font-medium hover:text-brand-pink transition-colors">Contact</Link>
+          {/* Use <a> tags with hash links for scrolling */}
+          <a href="/#about" className="text-sm font-medium hover:text-brand-pink transition-colors">About</a>
+          <a href="/#projects" className="text-sm font-medium hover:text-brand-pink transition-colors">Projects</a>
+          <a href="/#experiences" className="text-sm font-medium hover:text-brand-pink transition-colors">Experiences</a>
+          <a href="/#services" className="text-sm font-medium hover:text-brand-pink transition-colors">Services</a>
+          <a href="/#contacts" className="text-sm font-medium hover:text-brand-pink transition-colors">Contact</a>
         </nav>
         <ThemeToggle />
       </div>
