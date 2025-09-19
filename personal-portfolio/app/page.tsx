@@ -5,9 +5,10 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 // --- Re-creating your Project Data ---
 const projects = [
   {
-    title: 'Number Guessing Game',
-    imageUrl: 'https://i.ibb.co/VWgjJBc/project.png',
-    link: 'https://codepen.io/amiraTech/full/vYqBVPm',
+    title: '2Rescue',
+    src:"/project1.png",
+    imageUrl: '/project1.png',
+    link: 'https://rescue-6250b.web.app/',
   },
 
   // Add your other projects here
@@ -19,7 +20,7 @@ export default function Home() {
       {/* ===== WELCOME SECTION ===== */}
       <section id="about" className="min-h-screen flex flex-col-reverse md:flex-row-reverse items-center justify-center px-10 gap-10">
           {/* Profile Image Section */}
-         <div className="relative w-64 h-64 rounded-full overflow-hidden flex items-center justify-center border-4 border-white dark:border-gray-800 hover:border-brand-red transition-colors duration-300">
+         <div className="relative w-64 h-64 rounded-full overflow-hidden flex items-center justify-center border-4 border-red bg-red-600:border-red-800 hover:border-brand-red transition-colors duration-300">
          <Image
              src="/amira-profile.png"
              alt="Amira A"
@@ -38,10 +39,10 @@ export default function Home() {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium facilis consequatur perspiciatis, placeat distinctio est voluptatibus.
           </p>
           <div className="flex gap-4 mt-8">
-            <a href="#" className="inline-block bg-red-600 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
+            <a href="#" className="inline-block bg-red-800 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
               Hire me!
             </a>
-            <a href="#" className="inline-block bg-red-600 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
+            <a href="#" className="inline-block bg-red-800 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
               Contact Me
             </a>
           </div>
