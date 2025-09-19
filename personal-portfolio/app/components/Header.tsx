@@ -1,6 +1,6 @@
 // app/components/Header.tsx
 import Link from 'next/link';
-import ThemeToggle from './ThemeToggle';
+
 
 export default function Header() {
   return (
@@ -16,7 +16,6 @@ export default function Header() {
           <a href="/#services" className="text-sm font-medium hover:text-brand-pink transition-colors">Services</a>
           <a href="/contact" className="text-sm font-medium hover:text-brand-pink transition-colors">Contact</a>
         </nav>
-        <ThemeToggle />
       </div>
     </header>
   );

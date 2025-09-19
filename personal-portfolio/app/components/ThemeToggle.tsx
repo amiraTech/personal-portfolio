@@ -12,7 +12,7 @@ export default function ThemeToggle() {
   useEffect(() => setMounted(true), []);
 
   if (!mounted) {
-    return <div className="w-10 h-10" />; // Placeholder to prevent layout shift
+    return <div className="w-10 h-10" />; 
   }
 
   return (
