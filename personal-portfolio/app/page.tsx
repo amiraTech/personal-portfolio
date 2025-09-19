@@ -7,14 +7,13 @@ import { projects } from '@/lib/data';
 // This show the featured projects
 const featuredProjects = projects.slice(0, 2); 
 
-
 export default function Home() {
   return (
     <main>
       {/* ===== WELCOME SECTION ===== */}
       <section id="about" className="min-h-screen flex flex-col-reverse md:flex-row-reverse items-center justify-center px-10 gap-10">
           {/* Profile Image Section */}
-         <div className="relative w-64 h-64 rounded-full overflow-hidden flex items-center justify-center border-4 border-red bg-red-600:border-red-800 hover:border-brand-red transition-colors duration-300">
+        <div className="relative w-64 h-64 rounded-full overflow-hidden flex items-center justify-center ring-4 ring-razzmatazz">
          <Image
              src="/amira-profile.png"
              alt="Amira A"
@@ -26,15 +25,15 @@ export default function Home() {
      
         <div className="max-w-2xl">
           <h1 className="text-5xl font-bold leading-tight">Hi! I'm Amira</h1>
-          <h3 className="text-3xl font-bold text-brand-red mt-2">Front End Developer</h3>
+          <h3 className="text-3xl font-bold text-brand-red mt-2">Web Designer & Developer</h3>
           <p className="text-base my-5 text-gray-300">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium facilis consequatur perspiciatis, placeat distinctio est voluptatibus.
+            A freelance web designer & developer who helps clients bring their ideas to life with responsive, user-friendly websites, web apps and Figma designs. I’ve delivered projects such as a cloud-hosted disaster relief web app and an educational gamified app using ReactJS and the OpenAI API, demonstrating creativity, technical skill and fast execution. My goal is to provide reliable, high-quality digital solutions that help businesses and individuals achieve their objectives.
           </p>
           <div className="flex gap-4 mt-8">
             <a href="#" className="inline-block bg-red-800 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
-              Hire me!
+              Download CV
             </a>
-            <a href="#" className="inline-block bg-red-800 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
+            <a href="/contact" className="inline-block bg-red-800 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
               Contact Me
             </a>
           </div>
@@ -83,33 +82,34 @@ export default function Home() {
       <section id="experiences" className="py-20 px-10 bg-[#1E1E1E] text-center">
         <h2 className="text-4xl font-bold mb-10">My Experience</h2>
         <div className="max-w-4xl mx-auto text-left space-y-12">
-          {/* Experience Item 1 */}
+          {/* Experience Item 1 - G-Research*/}
           <div className="flex gap-6">
             <div className="flex flex-col items-center">
-              <div className="w-4 h-4 rounded-full bg-brand-pink mt-1"></div>
-              <div className="flex-grow w-px bg-gray-600"></div>
+              <div className="w-4 h-4 rounded-full bg-red-600 mt-1"></div>
+              <div className="flex-grow w-px bg-red-400 dark:bg-red-700"></div>
               </div>
               
               <div>
                 <p className="font-semibold text-gray-400">Summer 2025</p>
-                <h3 className="text-2xl font-bold mt-1">Frontend Developer Intern</h3>
-                <h4 className="text-lg text-brand-pink font-semibold">Tech Solutions Inc.</h4>
-                <p className="mt-2 text-gray-300">Worked with the development team to build and maintain responsive web applications using React and TypeScript.</p>
+                <h3 className="text-2xl font-bold mt-1">G-Research | 1st Place</h3>
+                <h4 className="text-lg text-brand-pink font-semibold">UpReach Tech500 Bootcamp 2025</h4>
+                <p className="mt-2 text-gray-300">As part of a 4-person team, I competed in a Python algorithms challenge, implementing quant theory and backtesting methods in a trading simulation to secure 1st place overall.</p>
                 </div>
               </div>
               
-              {/* Experience Item 2 */}
+              {/* Experience Item 2 - Google Hackathon */}
               <div className="flex gap-6">
                 <div className="w-4 h-4 rounded-full bg-brand-pink mt-1"></div>
                 <div>
-                  <p className="font-semibold text-gray-400">Spring 2024</p>
-                  <h3 className="text-2xl font-bold mt-1">Hackathon Participant</h3>
-                  <h4 className="text-lg text-brand-pink font-semibold">Google Developer Student Clubs</h4>
-                  <p className="mt-2 text-gray-300">Collaborated in a team of four to design and prototype a mobile app addressing local community issues.</p>
+                  <p className="font-semibold text-gray-400">Autumn 2024</p>
+                  <h3 className="text-2xl font-bold mt-1">Prompt Quest Google BGN Hackathon 2024 | 2nd Place</h3>
+                  <h4 className="text-lg text-brand-pink font-semibold">Google</h4>
+                  <p className="mt-2 text-gray-300">Engineered Prompt Quest gamified educational app during a 4-day hackathon as a 5 person team. I built the front-end with React and integrated the OpenAI API, helping earn 2nd place out of 10 teams.</p>
               </div>
             </div>
             </div>
-        </section>
+        </section>     
+
         
         {/* ===== SERVICES SECTION ===== */}
         <section id="services" className="py-20 px-10 bg-[#282828] text-center">
