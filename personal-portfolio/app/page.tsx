@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main>
       {/* ===== WELCOME SECTION ===== */}
-      <section id="about" className="min-h-screen flex flex-col-reverse md:flex-row-reverse items-center justify-center px-10 gap-10">
+      <section id="about" className="min-h-screen bg-[#000000] flex flex-col-reverse md:flex-row-reverse items-center justify-center px-10 gap-10">
           {/* Profile Image Section */}
         <div className="relative w-64 h-64 rounded-full overflow-hidden flex items-center justify-center ring-4 ring-razzmatazz">
          <Image
@@ -41,13 +41,13 @@ export default function Home() {
       </section>
 
       {/* ===== FEATURED PROJECTS SECTION ===== */}
-      <section id="projects" className="py-20 px-10 bg-neutral-800 text-center">
+      <section id="projects" className="py-20 px-10 bg-[#0b0b0e] text-center">
         <h2 className="text-4xl font-bold mb-10">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {featuredProjects.map((project) => (
             <div 
               key={project.title} 
-              className="bg-neutral-700 rounded-lg overflow-hidden shadow-lg flex flex-col text-left"
+              className="bg-[#1a191e] rounded-lg overflow-hidden shadow-lg flex flex-col text-left"
             >
               <Link href={project.link} target="_blank" rel="noopener noreferrer" className="block group">
                 <div className="relative w-full h-48">
@@ -79,7 +79,7 @@ export default function Home() {
 
 
       {/* ===== EXPERIENCES SECTION ===== */}
-      <section id="experiences" className="py-20 px-10 bg-[#1E1E1E] text-center">
+      <section id="experiences" className="py-20 px-10 bg-[#000000] text-center">
         <h2 className="text-4xl font-bold mb-10">My Experience</h2>
         <div className="max-w-4xl mx-auto text-left space-y-12">
           {/* Experience Item 1 - G-Research*/}
@@ -112,22 +112,22 @@ export default function Home() {
 
         
         {/* ===== SERVICES SECTION ===== */}
-        <section id="services" className="py-20 px-10 bg-[#282828] text-center">
+        <section id="services" className="py-20 px-10 bg-[#0b0b0e] text-center">
           <h2 className="text-4xl font-bold mb-10">What I Offer</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* Service 1 */}
-            <div className="bg-[#3c3c3c] p-8 rounded-xl">
+            <div className="bg-[#000000] p-8 rounded-xl">
               <h3 className="text-2xl font-bold mb-2">Web Design</h3>
               <p className="text-gray-400">Creating beautiful and intuitive user interfaces with a focus on user experience.</p>
               </div>
               
               {/* Service 2 */}
-               <div className="bg-[#3c3c3c] p-8 rounded-xl">
+               <div className="bg-[#000000] p-8 rounded-xl">
                 <h3 className="text-2xl font-bold mb-2">Frontend Development</h3>
                 <p className="text-gray-400">Bringing designs to life with clean, efficient code using React and Next.js.</p>
                 </div>
                 {/* Service 3 */}
-                <div className="bg-[#3c3c3c] p-8 rounded-xl">
+                <div className="bg-[#000000] p-8 rounded-xl">
                   <h3 className="text-2xl font-bold mb-2">Responsive Apps</h3>
                   <p className="text-gray-400">Building applications that look and perform great on all devices, from phones to desktops.</p>
                   </div>
@@ -136,7 +136,7 @@ export default function Home() {
 
       
       {/* ===== FOOTER/CONTACTS SECTION ===== */}
-      <footer id="contacts" className="py-10 px-10 bg-[#282828] text-center">
+      <footer id="contacts" className="py-10 px-10 bg-[#0b0b0e] text-center">
         <div className="flex justify-center gap-5 mb-5">
           <a href="https://github.com/amiraTech" target="_blank" className="text-3xl text-white hover:text-brand-red">
             <FaGithub />

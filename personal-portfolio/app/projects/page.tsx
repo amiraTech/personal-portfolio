@@ -7,7 +7,7 @@ import { FaGithub } from 'react-icons/fa'; // Make sure to install react-icons: 
 
 export default function ProjectsPage() {
   return (
-    <main className="min-h-screen bg-neutral-900 text-white py-24">
+    <main className="min-h-screen bg-[#0b0b0e] text-white py-24">
       <section id="projects">
         <h1 className="text-center text-4xl md:text-5xl font-bold mb-12">
           My Projects
@@ -19,7 +19,7 @@ export default function ProjectsPage() {
           {projects.map((project) => (
             <div 
               key={project.title} 
-              className="bg-neutral-800 rounded-lg overflow-hidden shadow-lg flex flex-col hover:shadow-razzmatazz/30 transition-shadow duration-300"
+              className="bg-[#1a191e] rounded-lg overflow-hidden shadow-lg flex flex-col hover:shadow-razzmatazz/30 transition-shadow duration-300"
             >
               <Link href={project.link} target="_blank" rel="noopener noreferrer" className="block group">
                 {/* 1. Image Preview Area */}
