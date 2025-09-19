@@ -1,18 +1,12 @@
 // app/page.tsx
 import Image from 'next/image';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import Link from 'next/link';
+import { projects } from '@/lib/data';
 
-// --- Re-creating your Project Data ---
-const projects = [
-  {
-    title: '2Rescue',
-    src:"/project1.png",
-    imageUrl: '/project1.png',
-    link: 'https://rescue-6250b.web.app/',
-  },
+// This show the featured projects
+const featuredProjects = projects.slice(0, 2); 
 
-  // Add your other projects here
-];
 
 export default function Home() {
   return (
@@ -30,8 +24,6 @@ export default function Home() {
            />
         </div>
      
-
-
         <div className="max-w-2xl">
           <h1 className="text-5xl font-bold leading-tight">Hi! I'm Amira</h1>
           <h3 className="text-3xl font-bold text-brand-red mt-2">Front End Developer</h3>
@@ -49,28 +41,44 @@ export default function Home() {
         </div>
       </section>
 
-
-    
-
-        {/* ===== PROJECTS SECTION ===== */}
-      <section id="projects" className="py-20 px-10 bg-[#282828] text-center">
-        <h2 className="text-4xl font-bold mb-10">These are my projects!</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {projects.map((project) => (
-            <a
-              key={project.title}
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block bg-[#3c3c3c] p-5 rounded-xl hover:scale-105 hover:bg-[#474747] transition-all"
+      {/* ===== FEATURED PROJECTS SECTION ===== */}
+      <section id="projects" className="py-20 px-10 bg-neutral-800 text-center">
+        <h2 className="text-4xl font-bold mb-10">Featured Projects</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {featuredProjects.map((project) => (
+            <div 
+              key={project.title} 
+              className="bg-neutral-700 rounded-lg overflow-hidden shadow-lg flex flex-col text-left"
             >
-              <p className="mt-4 text-xl font-medium text-white">{project.title}</p>
-            </a>
+              <Link href={project.link} target="_blank" rel="noopener noreferrer" className="block group">
+                <div className="relative w-full h-48">
+                  <Image
+                    src={project.image}
+                    alt={`Preview of ${project.title}`}
+                    layout="fill"
+                    objectFit="cover"
+                    objectPosition="top"
+                    className="transition-transform duration-300 group-hover:scale-105"
+                  />
+                </div>
+              </Link>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-white">{project.title}</h3>
+                <p className="text-neutral-400 mt-2 text-sm">{project.description}</p>
+              </div>
+            </div>
           ))}
+        </div>
+        
+        {/* 3. ADD a button to link to your full projects page */}
+        <div className="mt-12">
+            <Link href="/projects" className="inline-block bg-razzmatazz text-white font-bold py-3 px-8 rounded-lg hover:bg-opacity-90 transition-colors">
+              View All Projects
+            </Link>
         </div>
       </section>
 
-      
+
       {/* ===== EXPERIENCES SECTION ===== */}
       <section id="experiences" className="py-20 px-10 bg-[#1E1E1E] text-center">
         <h2 className="text-4xl font-bold mb-10">My Experience</h2>
