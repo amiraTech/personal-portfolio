@@ -8,7 +8,7 @@ export default function ThankYouPage() {
       <p className="mt-4 text-lg text-gray-400">
         Your message has been sent. I'll get back to you as soon as possible.
       </p>
-      <Link href="/" className="mt-8 text-razzmatazz hover:underline">
+      <Link href="/" className="mt-8 text-razzmatazz hover:text-red-600">
         ← Back to Home
       </Link>
     </main>

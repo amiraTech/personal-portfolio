@@ -100,7 +100,7 @@ export default function Home() {
                   <p className="font-semibold text-gray-400">Autumn 2024</p>
                   <h3 className="text-2xl font-bold mt-1">Prompt Quest Google BGN Hackathon 2024 | 2nd Place</h3>
                   <h4 className="text-lg text-brand-pink font-semibold">Google</h4>
-                  <p className="mt-2 text-gray-300">Engineered Prompt Quest gamified educational app during a 4-day hackathon as a 5 person team. I built the front-end with React and integrated the OpenAI API, helping earn 2nd place out of 10 teams.</p>
+                  <p className="mt-2 text-gray-300">Engineered Prompt Quest gamified educational app during a 4-day hackathon as a 5-person team. I built the front-end with React and integrated the OpenAI API, helping earn 2nd place out of 10 teams.</p>
               </div>
             </div>
             </div>
