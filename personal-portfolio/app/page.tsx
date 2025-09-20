@@ -10,7 +10,7 @@ const featuredProjects = projects.slice(0, 2);
 export default function Home() {
   return (
     <main>
-      {/* ===== WELCOME SECTION ===== */}
+      {/* ===== About Section ===== */}
       <section id="about" className="min-h-screen bg-[#000000] flex flex-col-reverse md:flex-row-reverse items-center justify-center px-10 gap-10 pt-28 pb-28 sm:32">
           {/* Profile Image Section */}
         <div className="relative w-64 h-64 rounded-full overflow-hidden flex items-center justify-center ring-4 ring-razzmatazz">
@@ -82,7 +82,7 @@ export default function Home() {
           <div className="flex gap-6">
             <div className="flex flex-col items-center">
               <div className="w-4 h-4 rounded-full bg-[#df0303] mt-1"></div>
-              <div className="flex-grow w-px bg-red-400 dark:bg-red-700"></div>
+              <div className="flex-grow w-px bg-[#df0303]"></div>
               </div>
               
               <div>
