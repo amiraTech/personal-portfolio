@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main>
       {/* ===== WELCOME SECTION ===== */}
-      <section id="about" className="min-h-screen bg-[#000000] flex flex-col-reverse md:flex-row-reverse items-center justify-center px-10 gap-10">
+      <section id="about" className="min-h-screen bg-[#000000] flex flex-col-reverse md:flex-row-reverse items-center justify-center px-10 gap-10 pt-28 pb-28 sm:32">
           {/* Profile Image Section */}
         <div className="relative w-64 h-64 rounded-full overflow-hidden flex items-center justify-center ring-4 ring-razzmatazz">
          <Image
