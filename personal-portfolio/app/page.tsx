@@ -30,10 +30,10 @@ export default function Home() {
             A freelance web designer & developer who helps clients bring their ideas to life with responsive, user-friendly websites, web apps and Figma designs. I’ve delivered projects such as a cloud-hosted disaster relief web app and an educational gamified app using ReactJS and the OpenAI API, demonstrating creativity, technical skill and fast execution. My goal is to provide reliable, high-quality digital solutions that help businesses and individuals achieve their objectives.
           </p>
           <div className="flex gap-4 mt-8">
-            <a href="#" className="inline-block bg-red-800 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
+            <a href="#" className="inline-block bg-[#df0303] text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
               Download CV
             </a>
-            <a href="/contact" className="inline-block bg-red-800 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
+            <a href="/contact" className="inline-block bg-[#df0303] text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
               Contact Me
             </a>
           </div>
@@ -85,7 +85,7 @@ export default function Home() {
           {/* Experience Item 1 - G-Research*/}
           <div className="flex gap-6">
             <div className="flex flex-col items-center">
-              <div className="w-4 h-4 rounded-full bg-red-600 mt-1"></div>
+              <div className="w-4 h-4 rounded-full bg-[#df0303] mt-1"></div>
               <div className="flex-grow w-px bg-red-400 dark:bg-red-700"></div>
               </div>
               
