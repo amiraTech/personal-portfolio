@@ -30,7 +30,7 @@ export default function Home() {
             A freelance web designer & developer who helps clients bring their ideas to life with responsive, user-friendly websites, web apps and Figma designs. I’ve delivered projects such as a cloud-hosted disaster relief web app and an educational gamified app using ReactJS and the OpenAI API, demonstrating creativity, technical skill and fast execution. My goal is to provide reliable, high-quality digital solutions that help businesses and individuals achieve their objectives.
           </p>
           <div className="flex gap-4 mt-8">
-            <a href="/contact" className="inline-block bg-[#df0303] text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
+            <a href="/contact" className="inline-block bg-[#df0303] text-white font-semibold py-3 px-8 rounded-lg transition-colors hover:bg-[#a10202]">
               Contact Me
             </a>
           </div>
