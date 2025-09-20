@@ -13,7 +13,7 @@ export const projects: Project[] = [
   {
     title: '2Rescue Cloud-Hosted Web Disaster Relief App',
     image: '/Project1.png',
-    description: 'A dynamic disaster relief web app built with React, using a live weather API and Firebase for real-time alerts and help requests.',
+    description: '2Rescue is a cloud-hosted web application built with React that enables communities in the UK to quickly access disaster relief resources. By utilising weatherAPI and Firebase, it provides real-time alerts and help requests, ensuring fast and accessible support during emergencies.',
     tags: ['ReactJS', 'Firebase', 'WeatherAPI'],
     link: 'https://rescue-6250b.web.app/',
     sourceCode: 'https://github.com/amiraTech/2Rescue', 
@@ -21,7 +21,7 @@ export const projects: Project[] = [
   {
     title: 'Xyzen Premium Sportwear Website',
     image: '/Project2.png', // IMPORTANT: You will need to take a screenshot of your portfolio and add it to the 'public' folder
-    description: 'Xyzen is a fully interactive mock-up website built as a performance gear showcase for athletes. I designed the UI in Figma and developed it in Framer, focusing on clean visuals, responsive layouts, and smooth interactivity.',
+    description: 'Xyzen is a live, fully interactive sportswear landing page concept I designed and built. Created in Figma and developed in Framer, it demonstrates my ability to deliver clean, responsive, and engaging website experiences from concept to launch.',
     tags: ['Figma', 'Framer'],
     link: 'https://xyzen.framer.website/', // A link to the homepage is fine here
   },

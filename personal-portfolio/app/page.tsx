@@ -30,9 +30,6 @@ export default function Home() {
             A freelance web designer & developer who helps clients bring their ideas to life with responsive, user-friendly websites, web apps and Figma designs. I’ve delivered projects such as a cloud-hosted disaster relief web app and an educational gamified app using ReactJS and the OpenAI API, demonstrating creativity, technical skill and fast execution. My goal is to provide reliable, high-quality digital solutions that help businesses and individuals achieve their objectives.
           </p>
           <div className="flex gap-4 mt-8">
-            <a href="#" className="inline-block bg-[#df0303] text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
-              Download CV
-            </a>
             <a href="/contact" className="inline-block bg-[#df0303] text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity">
               Contact Me
             </a>
@@ -69,7 +66,6 @@ export default function Home() {
           ))}
         </div>
         
-        {/* 3. ADD a button to link to your full projects page */}
         <div className="mt-12">
             <Link href="/projects" className="inline-block bg-razzmatazz text-white font-bold py-3 px-8 rounded-lg hover:bg-opacity-90 transition-colors">
               View All Projects
@@ -97,7 +93,7 @@ export default function Home() {
                 </div>
               </div>
               
-              {/* Experience Item 2 - Google Hackathon */}
+              {/* Experience Item 2 - Google*/}
               <div className="flex gap-6">
                 <div className="w-4 h-4 rounded-full bg-brand-pink mt-1"></div>
                 <div>

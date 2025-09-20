@@ -3,7 +3,7 @@
 import { projects } from '@/lib/data';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaGithub } from 'react-icons/fa'; // Make sure to install react-icons: npm install react-icons
+import { FaGithub } from 'react-icons/fa'; 
 
 export default function ProjectsPage() {
   return (
@@ -14,8 +14,7 @@ export default function ProjectsPage() {
         </h1>
         
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl">
-          
-          {/* This maps over your projects and creates the card */}
+          {/*1. Map Project Area */}
           {projects.map((project) => (
             <div 
               key={project.title} 
