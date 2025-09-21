@@ -35,7 +35,7 @@ export default function ContactPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-8 text-center pt-24 bg-black">
       <div className="max-w-2xl">
-        <h1 className="text-4xl md:text-5xl font-bold">Let's Work Together</h1>
+        <h1 className="text-4xl md:text-5xl font-bold">Let&apos; Work Together</h1>
         <p className="mt-4 text-lg text-gray-400">
           Have a project in mind? I&apos;d love to hear from you.
         </p>
