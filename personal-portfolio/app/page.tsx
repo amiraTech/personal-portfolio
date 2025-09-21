@@ -112,18 +112,18 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-10">What I Offer</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* Service 1 */}
-            <div className="bg-[#000000] p-8 rounded-xl transition-all duration-300 hover:outline hover:outline-2 hover:outline-offset-2 hover:outline-[#df0303]">
+            <div className="bg-[#000000] p-8 rounded-xl transition-all duration-300 hover:outline hover:outline-offset-2 hover:outline-[#df0303]">
               <h3 className="text-2xl font-bold mb-2">Web Design</h3>
               <p className="text-gray-400">Create visually appealing, user-focused designs that engage visitors and guide them seamlessly. Tools: Figma, Framer, no-code platforms.</p>
               </div>
               
               {/* Service 2 */}
-               <div className="bg-[#000000] p-8 rounded-xl transition-all duration-300 hover:outline hover:outline-2 hover:outline-offset-2 hover:outline-[#df0303]">
+               <div className="bg-[#000000] p-8 rounded-xl transition-all duration-300 hover:outline hover:outline-offset-2 hover:outline-[#df0303]">
                 <h3 className="text-2xl font-bold mb-2">Front-End Development</h3>
                 <p className="text-gray-400">Turn designs into clean, efficient, and scalable websites. Tech: HTML, CSS, JS, ReactJS, NextJS, Tailwind, NodeJS.</p>
                 </div>
                 {/* Service 3 */}
-                <div className="bg-[#000000] p-8 rounded-xl transition-all duration-300 hover:outline hover:outline-2 hover:outline-offset-2 hover:outline-[#df0303]">
+                <div className="bg-[#000000] p-8 rounded-xl transition-all duration-300 hover:outline hover:outline-offset-2 hover:outline-[#df0303]">
                   <h3 className="text-2xl font-bold mb-2">Responsive Apps</h3>
                   <p className="text-gray-400">Build fast, mobile-friendly applications that perform flawlessly on any device, with SEO and UX/UI in mind.</p>
                   </div>
