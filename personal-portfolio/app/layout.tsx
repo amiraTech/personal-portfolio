@@ -1,15 +1,14 @@
 // app/layout.tsx
-//import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Providers } from "./providers"; // We need this for the theme
+import { Providers } from "./providers"; 
 import Header from "./components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Amira's Portfolio",
-  description: "A personal portfolio built with Next.js",
+  title: "Amira A",
+  description: "A personal portfolio website",
 };
 
 export default function RootLayout({
@@ -22,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Providers>
           <Header />
-          {children} {/* This line renders your actual page content */}
+          {children} 
         </Providers>
       </body>
     </html>
