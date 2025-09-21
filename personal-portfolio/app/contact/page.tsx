@@ -37,7 +37,7 @@ export default function ContactPage() {
       <div className="max-w-2xl">
         <h1 className="text-4xl md:text-5xl font-bold">Let's Work Together</h1>
         <p className="mt-4 text-lg text-gray-400">
-          Have a project in mind? I'd love to hear from you.
+          Have a project in mind? I&apos;d love to hear from you.
         </p>
         
         {/* Form Input Section */}

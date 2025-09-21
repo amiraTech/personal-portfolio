@@ -24,7 +24,7 @@ export default function Home() {
         </div>
      
         <div className="max-w-2xl">
-          <h1 className="text-5xl font-bold leading-tight">Hi! I'm Amira</h1>
+          <h1 className="text-5xl font-bold leading-tight">Hi! I&apos;m Amira</h1>
           <h3 className="text-3xl font-bold text-brand-red mt-2">Web Designer & Developer</h3>
           <p className="text-base my-5 text-gray-300">
             A freelance web designer & developer who helps clients bring their ideas to life with responsive, user-friendly websites, web apps and Figma designs. I’ve delivered projects such as a cloud-hosted disaster relief web app and an educational gamified app using ReactJS and the OpenAI API, demonstrating creativity, technical skill and fast execution. My goal is to provide reliable, high-quality digital solutions that help businesses and individuals achieve their objectives.
