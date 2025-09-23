@@ -25,13 +25,12 @@ export default function Home() {
      
         <div className="max-w-2xl">
           <h1 className="text-5xl font-bold leading-tight">Hi! I&apos;m Amira</h1>
-          <h3 className="text-3xl font-bold text-brand-red mt-2">Web Developer/Designer | 2nd Year Business IT Student</h3>
+          <h3 className="text-3xl font-bold text-brand-red mt-2">Web Developer & Designer | 2nd Year Business IT Student</h3>
           <p className="text-base my-5 text-gray-300">
-            I’m a 2nd-year Business Information Technology student and freelance web designer/developer. I help organisations and individuals bring their ideas to life with responsive, user-friendly websites, web apps and Figma designs.
-            
-            I’ve built projects such as a cloud-hosted disaster-relief web app and an educational gamified app using ReactJS and the OpenAI API, demonstrating creativity, technical skill and fast execution.
-            
-            My goal is to keep learning and apply my skills to create reliable, high-quality digital solutions — whether through internships where I can grow as part of a team, or freelance work where I deliver value directly to clients.
+            A 2nd-year Business IT student and freelance web developer & designer. I turn ideas into digital experiences that people enjoy using, whether that’s a responsive website, an interactive web app, or a Figma design.
+            I’ve built projects like a cloud-hosted disaster-relief web app and an educational gamified app using ReactJS and the OpenAI API. I enjoy experimenting with new technologies and figuring out creative solutions to tricky problems, and I’m always excited to ship projects that actually work in the real world.
+            Whether it’s through an internship where I can learn from a team of engineers or freelance work delivering value to clients, my goal is the same: to keep growing my skills while creating reliable, high-quality digital solutions. 
+            Outside of development, I enjoy playing football, which helps me stay active and also teaches teamwork and perseverance.
           </p>
           <div className="flex gap-4 mt-8">
             <a href="/contact" className="inline-block bg-[#df0303] text-white font-semibold py-3 px-8 rounded-lg transition-colors hover:bg-[#a10202]">
