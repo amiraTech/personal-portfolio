@@ -25,9 +25,13 @@ export default function Home() {
      
         <div className="max-w-2xl">
           <h1 className="text-5xl font-bold leading-tight">Hi! I&apos;m Amira</h1>
-          <h3 className="text-3xl font-bold text-brand-red mt-2">Web Designer & Developer</h3>
+          <h3 className="text-3xl font-bold text-brand-red mt-2">Web Developer/Designer | 2nd Year Business IT Student</h3>
           <p className="text-base my-5 text-gray-300">
-            A freelance web designer & developer who helps clients bring their ideas to life with responsive, user-friendly websites, web apps and Figma designs. I’ve delivered projects such as a cloud-hosted disaster relief web app and an educational gamified app using ReactJS and the OpenAI API, demonstrating creativity, technical skill and fast execution. My goal is to provide reliable, high-quality digital solutions that help businesses and individuals achieve their objectives.
+            I’m a 2nd-year Business Information Technology student and freelance web designer/developer. I help organisations and individuals bring their ideas to life with responsive, user-friendly websites, web apps and Figma designs.
+            
+            I’ve built projects such as a cloud-hosted disaster-relief web app and an educational gamified app using ReactJS and the OpenAI API, demonstrating creativity, technical skill and fast execution.
+            
+            My goal is to keep learning and apply my skills to create reliable, high-quality digital solutions — whether through internships where I can grow as part of a team, or freelance work where I deliver value directly to clients.
           </p>
           <div className="flex gap-4 mt-8">
             <a href="/contact" className="inline-block bg-[#df0303] text-white font-semibold py-3 px-8 rounded-lg transition-colors hover:bg-[#a10202]">
