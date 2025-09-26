@@ -11,7 +11,7 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: '2Rescue Cloud-Hosted Web Disaster Relief App',
+    title: '2Rescue Cloud-Hosted Disaster Relief Web App',
     image: '/project1.png',
     description: '2Rescue is a cloud-hosted web application built with React that enables communities in the UK to quickly access disaster relief resources. By utilising weatherAPI and Firebase, it provides real-time alerts and help requests, ensuring fast and accessible support during emergencies.',
     tags: ['ReactJS', 'Firebase', 'WeatherAPI'],
